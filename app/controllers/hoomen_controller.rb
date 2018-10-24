@@ -9,10 +9,16 @@ class HoomenController < ApplicationController
         render json: hooman
     end
 
+    def update
+        hooman = Hooman.find(params[:id])
+        hooman.update(hooman_params)
+        render json: hooman
+    end
+
     private
 
     def hooman_params
-        params.require(:hooman).permit(:name)
+        params.require(:hooman).permit(:name, :eaten)
     end
 
 end
