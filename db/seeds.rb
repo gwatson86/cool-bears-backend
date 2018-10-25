@@ -97,3 +97,33 @@ Activity.create(
     name: "Feed",
     phrase: "Give BEAR a nice, big pile of fish."
 )
+
+Activity.create(
+    name: "Cuddle",
+    phrase: "Snuggle up to BEAR while watching Grizzly Man, the one where the dude gets eaten by a bear."
+)
+
+Activity.create(
+    name: "Read",
+    phrase: 'Read "The Golden Compass" to BEAR. BEAR loves all the bear fights!'
+)
+
+Activity.create(
+    name: "Walk",
+    phrase: "Who wants to go for walkies? Is it BEAR? Yes, it is!"
+)
+
+Activity.create(
+    name: "Ride",
+    phrase: "Saddle BEAR up and ride around terrorizing nearby villages."
+)
+
+Activity.create(
+    name: "Swim",
+    phrase: "Leisurely float around with BEAR."
+)
+
+Activity.create(
+    name: "Birthday",
+    phrase: "It's BEAR's birthday! Sing 'Happy Birthday' and bake BEAR a cake!"
+)

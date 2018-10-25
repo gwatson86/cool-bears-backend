@@ -18,7 +18,7 @@ class HoomenController < ApplicationController
     private
 
     def hooman_params
-        params.require(:hooman).permit(:name, :eaten)
+        params.require(:hooman).permit(:name, :eaten, :eaten_by)
     end
 
 end
